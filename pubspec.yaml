@@ -64,6 +64,25 @@ flutter:
   assets:
     - lib/assets/menu.json
     - lib/assets/img.png
+    - lib/assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: lib/assets/fonts/Poppins-Regular.ttf
+          weight: 500
+        - asset: lib/assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: lib/assets/fonts/Poppins-Bold.ttf
+          weight: 700
+    - family: OpenSans
+      fonts:
+        - asset: lib/assets/fonts/OpenSans-Regular.ttf
+          weight: 500
+        - asset: lib/assets/fonts/OpenSans-SemiBold.ttf
+          weight: 600
+        - asset: lib/assets/fonts/OpenSans-Bold.ttf
+          weight: 700
 
   # To add assets to your application, add an assets section, like this:
   # assets:

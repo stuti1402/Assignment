@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:untitled1/screens/landing_page.dart';
+import 'package:untitled1/ui_views/onboardinglayoutview.dart';
 
 import 'Pages/ItemAddPage.dart';
 
@@ -15,12 +17,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Restaurant',
       theme: ThemeData(
         primarySwatch: Colors.orange,
+        primaryColor: Colors.white,
+
 
       ),
-      home: const ItemAddPage(),
+      home:  LandingPage(),
     );
   }
 }
